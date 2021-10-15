@@ -1,5 +1,7 @@
-// computes all of the prime numbers less than or equal to 
-// a given number N.
+// computes all of the prime numbers in a range given by the user.
+// If the user needs/wants to calculate all primes below a certain
+// number, they must enter 2 as the first number, and their selected
+// number as the second.
 //
 #include <stdio.h>
 #include <math.h>
