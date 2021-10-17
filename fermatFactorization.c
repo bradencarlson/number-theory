@@ -3,6 +3,12 @@
 // factored N=pq, where p and q are prime and relatively similar 
 // in size.  
 
+/*
+    NOTE THIS FILE WORKS WELL WHEN THE NUMBER TO BE FACTORED IS THE PRODUCT 
+    OF TWO NUMBERS THAT ARE RELATIVELY CLOSE TO ONE ANOTHER, AND OFTEN FAILS
+    WHEN THAT IS NOT THE CASE.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
